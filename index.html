@@ -11,13 +11,20 @@
         <!-- need: email password username radio buttons with; enterprise, pro, free
         checkbox with: "remember me" next to it -->
         <form>
-            <input type="text" name="username" value="" placeholder="Username">
-            <input type="password" name="password" value="" placeholder="Password">
-            <input type="text" name="email" value="" placeholder="Email">
-            <input type="radio" name="company" value="Enterprise">Enterprise
-            <input type="radio" name="company" value="Pro">Pro
-            <input type="radio" name="company" value="Free">Free
-            <input type="checkbox" name="remember" value="Rememberme">Remembe me
+            <div>
+                <input type="text" name="username" value="" placeholder="Username">
+                <input type="password" name="password" value="" placeholder="Password">
+                <input type="text" name="email" value="" placeholder="Email">
+            </div>
+            <div>
+                <input type="radio" name="company" value="Enterprise">Enterprise
+                <input type="radio" name="company" value="Pro">Pro
+                <input type="radio" name="company" value="Free">Free
+            </div>
+            <div>
+                <input type="checkbox" name="remember" value="Rememberme">Remembe me
+            </div>
+            <button type="submit">Submit Me!</button>
         </form>
     </main>
     
